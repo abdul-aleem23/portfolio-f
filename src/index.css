@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+  background-image: url(./assets/images/endless-constellation.svg);
+     
+}
+
+#desktop {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: animate 2s infinite ease alternate;
+  }
+  
+  @keyframes animate {
+    to {
+      transform: translateY(20px);
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #desktop {
+      width: 500px;
+      height: 300px; /* Adjust the height for smaller screens */
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #desktop {
+      width: 450px; /* Adjust the width for medium-sized screens (md) */
+      height: 350px; /* Adjust the height for medium-sized screens (md) */
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    #desktop {
+      width: 700px; /* Adjust the width for large screens (lg) */
+      height: 500px; /* Adjust the height for large screens (lg) */
+    }
+  }
+
+#button {
+background-color: white;
+width: 150px;
+height: 45px;
+font-size: 16px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+color: #84319B;
+cursor: pointer;
+border: 1px solid;
+box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+position: relative;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
+
+&:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 3px;
+  left: 3px;
+}
+@media (min-width: 768px) {
+  padding: 0.25em 0.75em;
+  }
+
+  @media only screen and (max-width:768px){
+  width: 125px;
+}
+}
+  
