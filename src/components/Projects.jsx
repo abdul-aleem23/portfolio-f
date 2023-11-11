@@ -28,19 +28,19 @@ const Projects = () => {
           />
 
           <Cards
-            gitLink="https://github.com/abdul-aleem23/weatherApp"
-            title="Weather WebApp"
-            description="allows users to search for the current weather of a specific city, using OpenWeather Api."
-            language="Vanilla JavaScript CSS"
-          />
-
-          <Cards
-            gitLink="https://github.com/abdul-aleem23/"
-            siteLink="https://reconnect-fam.netlify.app/"
+            gitLink="https://github.com/abdul-aleem23/reconnect"
+            siteLink="https://reconnect-psi.vercel.app/auth"
             title="Reconnect. (Chat-app)"
             description="Developed a chat application, Implemented user authentication with Google sign-in, displays chat messages, user names, and chatroom names  for effective
             communication."
             language="React Tailwind Firebase"
+          />
+
+          <Cards
+            gitLink="https://github.com/abdul-aleem23/weatherApp"
+            title="Weather WebApp"
+            description="allows users to search for the current weather of a specific city, using OpenWeather Api."
+            language="Vanilla JavaScript CSS"
           />
           <Cards
             gitLink="https://github.com/abdul-aleem23/youtubeClone"
