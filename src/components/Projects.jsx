@@ -29,7 +29,7 @@ const Projects = () => {
 
           <Cards
             gitLink="https://github.com/abdul-aleem23/reconnect"
-            siteLink="https://reconnect-fam.netlify.app/auth" 
+            siteLink="https://reconnect-fam.netlify.app/"
             title="Reconnect. (Chat-app)"
             description="Developed a chat application, Implemented user authentication with Google sign-in, displays chat messages, user names, and chatroom names  for effective
             communication."
